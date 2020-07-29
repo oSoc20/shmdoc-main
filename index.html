@@ -121,12 +121,14 @@
                 <h2 class="h4">The project</h2>
                 <p>Shmdoc is an application that aims to relieve scientific institutions’ issues with their (open)
                     dataset management.</p>
-                <p>Through a combination of <strong>automated analysis</strong> and <strong>human-aided annotation</strong>, it tries
+                <p>Through a combination of <strong>automated analysis</strong> and <strong>human-aided
+                    annotation</strong>, it tries
                     to deliver more insight in what data is available and what connections can be made in between
                     different datasets.
                 </p>
                 <p>
-                    The shmdoc project was proposed by the open science team of the Flanders Marine Institute (VLIZ) under supervision of Marc Portier.
+                    The shmdoc project was proposed by the open science team of the Flanders Marine Institute (VLIZ)
+                    under supervision of Marc Portier.
                 </p>
                 <!-- replace these text boxes with your project description-->
             </div>
@@ -134,8 +136,11 @@
         <div class="row">
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-5">
                 <h2 class="h4">Try it out!</h2>
-                <p>We've hosted a demo version of shmdoc, so you can try it out yourself. Go to the <a href="shmdoc.osoc.be">site</a>, upload your sample datasets and the analysis will start automatically!</p>
-                <p>Once the analysis is done, you can add extra annotations to your data, or even get an overview of properties from other datasets with the same units!</p>
+                <p>We've hosted a demo version of shmdoc, so you can try it out yourself. Go to the <a
+                        href="shmdoc.osoc.be">site</a>, upload your sample datasets and the analysis will start
+                    automatically!</p>
+                <p>Once the analysis is done, you can add extra annotations to your data, or even get an overview of
+                    properties from other datasets with the same units!</p>
 
                 <div class="button-group">
                     <a class="button button--narrow" href="http://shmdoc.osoc.be/" target="_blank">View project</a>
@@ -149,7 +154,27 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0 col-lg-6">
+                <div class="project-image">
+                    <img src="img/architecture.png">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-lg-5 col-md-offset-1">
+                <h2 class="h4">The structure</h2>
+                <p>To keep the large project managable, we've used the musemtech framework. This allows us to split the
+                    project in microservices and reuse components already made by other
+                    people.</p>
+                <p>This also means that we have different repositories for each of them: <a href="https://github.com/shmdoc/app-shmdoc-osoc-poc">app-shmdoc-osoc-poc</a> is the
+                        repository that connects all the pieces together, <a href="https://github.com/shmdoc/frontend-shmdoc-osoc-poc">frontend-shmdoc-osoc-poc</a>
+                        contains the frontend, written in vue and <a href="https://github.com/shmdoc/shmdoc-analyzer-service">shmdoc-analyzer-service</a> contains
+                        the shmdoc-analyzer, written in Python.
+                </p>
+                <!-- replace these text boxes with your project description-->
+            </div>
+        </div>
     </div>
+
 
     <div class="container container-fluid project-section">
         <hr>
